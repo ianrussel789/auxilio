@@ -1,0 +1,93 @@
+/* simple styles, nothing fancy */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* pages */
+.page {
+  display: block;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.page h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 5px;
+}
+
+/* input boxes */
+.box {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.box h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input, select {
+  padding: 7px;
+  margin-top: 3px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  width: 220px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a252f;
+}
+
+/* results */
+p {
+  font-size: 14px;
+}
+
+#ansC, #ansF, #ansM, #ansFt, #taxAns, #numAns, #payAns {
+  background-color: #e8f0fe;
+  padding: 8px;
+  border-radius: 4px;
+  white-space: pre-line;
+}
+
+.note {
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: 30px;
+  padding: 10px;
+}
