@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Assignments - Daigler25</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= ASSIGNMENT 1 ================= -->
+  <div id="a1" class="page active">
+    <h2>Assignment #1 - Conversion</h2>
+
+    <div class="box">
+      <h3>Celsius to Fahrenheit</h3>
+      <input type="number" id="celsius" placeholder="Enter Celsius">
+      <button onclick="convertCtoF()">Convert</button>
+      <p id="ansC"></p>
+    </div>
+
+    <div class="box">
+      <h3>Fahrenheit to Celsius</h3>
+      <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit">
+      <button onclick="convertFtoC()">Convert</button>
+      <p id="ansF"></p>
+    </div>
+
+    <div class="box">
+      <h3>Meters to Feet</h3>
+      <input type="number" id="meters" placeholder="Enter Meters">
+      <button onclick="convertMtoFt()">Convert</button>
+      <p id="ansM"></p>
+    </div>
+
+    <div class="box">
+      <h3>Feet to Meters</h3>
+      <input type="number" id="feet" placeholder="Enter Feet">
+      <button onclick="convertFttoM()">Convert</button>
+      <p id="ansFt"></p>
+    </div>
+  </div>
+
+  <!-- ================= ASSIGNMENT 2 ================= -->
+  <div id="a2" class="page active">
+    <h2>Assignment #2 - Income Tax Calculator</h2>
+
+    <div class="box">
+      <label>Annual Income (Php):</label>
+      <input type="number" id="income" placeholder="e.g. 350000">
+
+      <label>Civil Status:</label>
+      <select id="civilStatus">
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="head">Head of the Family</option>
+      </select>
+
+      <button onclick="calcTax()">Calculate Tax</button>
+      <p id="taxAns"></p>
+    </div>
+  </div>
+
+  <!-- ================= ASSIGNMENT 3 ================= -->
+  <div id="a3" class="page active">
+    <h2>Assignment #3 - Factorial, Sum, Average</h2>
+
+    <div class="box">
+      <label>Enter a number (N):</label>
+      <input type="number" id="nValue" value="5" min="1">
+      <button onclick="computeAll()">Compute</button>
+      <p id="numAns"></p>
+    </div>
+  </div>
+
+  <!-- ================= ASSIGNMENT 4 ================= -->
+  <div id="a4" class="page active">
+    <h2>Assignment #4 - Simple Payroll</h2>
+
+    <div class="box">
+      <label>Employee Name:</label>
+      <input type="text" id="empName" placeholder="Juan Dela Cruz">
+
+      <label>Hours Worked:</label>
+      <input type="number" id="hoursWorked" placeholder="e.g. 45">
+
+      <label>Hourly Rate (Php):</label>
+      <input type="number" id="hourlyRate" placeholder="e.g. 100">
+
+      <label>Overtime Rate:</label>
+      <input type="number" id="otRate" value="1.5" step="0.1">
+
+      <button onclick="computePayroll()">Compute Payroll</button>
+      <p id="payAns"></p>
+    </div>
+    <p class="note">Note: first 40 hours are regular, anything above that is overtime.</p>
+  </div>
+
+  <footer>
+    <p>Made for Daigler25 class - 2026</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
