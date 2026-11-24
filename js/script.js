@@ -69,7 +69,7 @@ function calcTax() {
     return;
   }
 
-  // simplified tax brackets (adjust if the rubric uses different numbers)
+  
   var tax = 0;
 
   if (income <= 250000) {
@@ -84,7 +84,7 @@ function calcTax() {
     tax = 490000 + (income - 2000000) * 0.35;
   }
 
-  // small adjustment depending on status (example only)
+  
   if (status === "married") {
     tax = tax * 0.95;
   } else if (status === "head") {
@@ -112,7 +112,7 @@ function computeAll() {
     return;
   }
 
-  // factorial using WHILE loop (required by the assignment)
+  
   var factorial = 1;
   var i = 1;
   while (i <= n) {
